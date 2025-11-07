@@ -1,0 +1,8 @@
+html {
+    background-color: black;
+}
+
+#head{ /*resizing img for header element*/
+    width: 300px;
+    height: 200px;
+}
