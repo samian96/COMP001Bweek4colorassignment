@@ -37,9 +37,33 @@ a:visited {
     margin-top: 80px;
 }
 
+h4 {
+    font-family: "Metal Mania", system-ui  ;
+}
+
 h3 {
+    font-family: "Metal Mania", system-ui ;
     text-align: center;
     
+}
+
+h2 {
+    font-family: "Metal Mania", system-ui ;
+    text-align: center;
+}
+
+#vocal {
+    width: 200px;
+
+}
+
+#guitar {
+    width: 300px;
+
+}
+#bass {
+    width: 200px;
+
 }
 
 
