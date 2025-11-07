@@ -17,3 +17,20 @@ ul li {
     margin-right: 50px; 
     text-shadow: 5px 5px 5px black;
 }
+
+a {
+    color: white;
+}
+
+a:hover {
+    background-color: rgba(141, 141, 141, 0.3);
+    cursor: pointer;
+
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+
+
