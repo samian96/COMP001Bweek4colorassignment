@@ -1,8 +1,18 @@
 html {
-    background-color: black;
+    background-color: rgb(22, 22, 22);
+    color: white ; 
 }
 
 #head{ /*resizing img for header element*/
     width: 300px;
     height: 200px;
+    clear: both;
+}
+
+ul li {
+    float: right; /*floats ul li to the right, in its own container*/
+    display: block;
+    padding-left: 10px;
+    margin-right: 50px;
+    
 }
