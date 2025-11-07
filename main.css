@@ -1,6 +1,7 @@
 html {
     background-color: rgb(27, 27, 27);
     color: white ; 
+    text-shadow: 5px 5px 5px black; /*adds shadow to all text on the html element*/   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,8 +53,12 @@ h3 {
 }
 
 h2 {
-    font-family: "Metal Mania", system-ui ;
+    font-family: "Metal Mania", system-ui ; /*google font family*/
     text-align: center;
+}
+
+aside {
+    clear: both; /*allows so that any floated objects do not effect its placement*/
 }
 /*Note: Probably not the best method but each id is for an img of band member and section it is in*/
 #vocal {
@@ -83,6 +88,27 @@ h2 {
 #member3 {
     float: left;
     margin-left: 50px;
+}
+
+#table1 {
+    clear: both;
+}
+
+#shop {
+    float: left;
+    margin-left: 400px;
+}
+
+#sticker {
+    width: 250px;
+}
+
+th, td {
+    font-family: "Metal Mania", system-ui ;
+    border: 1px solid white;
+    border-left: 2px;
+    border-right: 1px;
+    border-bottom: 1px;
 }
 
 
