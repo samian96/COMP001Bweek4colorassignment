@@ -11,11 +11,11 @@ html {
 
 ul li {
     font-family: "Metal Mania", system-ui ;
-    float: right; /*floats ul li to the right, in its own container*/
+    float: left; /*floats ul li to the left, in its own container*/
     display: block;
-    padding-left: 10px;
-    margin-right: 50px; 
+    margin-left: 140px;
     text-shadow: 5px 5px 5px black;
+    
 }
 
 a {
@@ -30,6 +30,16 @@ a:hover {
 
 a:visited {
     color: rgb(255, 255, 255);
+}
+
+#news {
+    text-align: center;
+    margin-top: 80px;
+}
+
+h3 {
+    text-align: center;
+    
 }
 
 
